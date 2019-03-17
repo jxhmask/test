@@ -16,7 +16,7 @@ public class AObserver implements Observer {
 	}
 	@Override
 	public void update(Observable o, Object arg) {
-		System.out.println("AObserver:" + ((ServerManager)o).getDate() + "; adfasdf" + arg);
+		System.out.println("AObserver:" + ((ServerManager)o).getDate() + ";asdfasd adfasdf" + arg);
 		//hello 
 	}
 
